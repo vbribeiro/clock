@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #13293D;
+    font-family: 'Noto-Sans', sans-serif;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(350px);
+}
+
+.card--content{
+    background: #FFF;
+    color: #006494;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#card--show {
+    border: none;
+    font-size: 30px;
+    background: #FFF;
+    color: #006494;
+}
